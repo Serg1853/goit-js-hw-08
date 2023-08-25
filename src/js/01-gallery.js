@@ -10,6 +10,7 @@ console.log(galleryItems);
 
 const galleryContainer = document.querySelector('.gallery');
 const galleryCardMarkup = createGallery(galleryItems);
+galleryContainer.style.listStyle = 'none';
 
 function createGallery(galleryItems) {
   return galleryItems
